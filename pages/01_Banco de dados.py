@@ -35,11 +35,11 @@ with tab1:
 with tab2:
 
         st.markdown("""
-        ## Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
+        # Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
 
         A base de dados do PNAD-COVID-19 do IBGE é vasta e rica em detalhes. Para nossa análise, focamos em colunas específicas que nos ajudariam a entender melhor o impacto e as implicações da pandemia. Vamos explorar essas colunas, organizadas por categorias.
 
-        ### Dados Padrão (Informações Pessoais)
+        ## Dados Padrão (Informações Pessoais)
 
         Estas são as colunas que contêm informações básicas sobre os respondentes. Elas não são contadas como perguntas, mas são essenciais para contextualizar e segmentar as respostas.
 
@@ -51,7 +51,7 @@ with tab2:
         | cor | Cor ou raça |
         | escolaridade | Escolaridade |
 
-        ### Trilha dos Sintomas Clínicos
+        ## Trilha dos Sintomas Clínicos
 
         Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia.
 
@@ -71,7 +71,7 @@ with tab2:
         | 12 | sintoma_diarreia | Na semana passada teve diarreia? |
         | 13 | usou_respiracao_artificial | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
 
-        ### Trilha do Comportamento da População
+        ## Trilha do Comportamento da População
 
         Estas colunas nos dão insights sobre como a população reagiu e se comportou durante a pandemia.
 
@@ -80,7 +80,7 @@ with tab2:
         | 15 | isolamento | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
         | 17 | fez_home_office | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
 
-        ### Trilha Econômica
+        ## Trilha Econômica
 
         Estas colunas nos ajudam a entender os impactos econômicos da pandemia sobre os respondentes.
 
@@ -90,9 +90,10 @@ with tab2:
         | 16 | faixa_rendimento | Número da faixa do rendimento/retirada em dinheiro |
         | 18 | recebeu_auxilio | Auxílios emergenciais relacionados ao coronavirus |
 
+                    
         Acompanhe-nos nesta jornada enquanto mergulhamos profundamente em cada uma dessas colunas, desvendando as histórias e insights que elas têm a nos contar.
         
-        ## Próximos Passos
+        ### Próximos Passos
 
         Agora que estamos familiarizados com a estrutura do banco de dados e as perguntas cruciais que escolhemos analisar, é hora de mergulhar mais fundo. A verdadeira magia acontece quando transformamos esses dados em insights acionáveis.
 
