@@ -57,7 +57,19 @@ with tab2:
 
         | Número Pergunta | Nome da Coluna | Descrição |
         | --------------- | -------------- | --------- |
-        | 1-13 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+        | 1 | sintoma_febre | Na semana passada teve febre? |
+        | 2 | sintoma_tosse | Na semana passada teve tosse? |
+        | 3 | sintoma_dor_garganta | Na semana passada teve dor de garganta? |
+        | 4 | sintoma_dificuldade_respirar | Na semana passada teve dificuldade para respirar? |
+        | 5 | sintoma_dor_cabeca | Na semana passada teve dor de cabeça? |
+        | 6 | sintoma_dor_peito | Na semana passada teve dor no peito? |
+        | 7 | sintoma_nausea | Na semana passada teve náusea? |
+        | 8 | sintoma_nariz_entupido_escorrendo | Na semana passada teve nariz entupido ou escorrendo? |
+        | 9 | sintoma_fadiga | Na semana passada teve fadiga? |
+        | 10 | sintoma_perda_cheiro_sabor | Na semana passada teve perda de cheiro ou sabor? |
+        | 11 | sintoma_dor_muscular | Na semana passada teve dor muscular? |
+        | 12 | sintoma_diarreia | Na semana passada teve diarreia? |
+        | 13 | usou_respiracao_artificial | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
 
         ### Trilha do Comportamento da População
 
@@ -65,7 +77,8 @@ with tab2:
 
         | Número Pergunta | Nome da Coluna | Descrição |
         | --------------- | -------------- | --------- |
-        | 15, 17 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+        | 15 | isolamento | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
+        | 17 | fez_home_office | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
 
         ### Trilha Econômica
 
@@ -73,7 +86,10 @@ with tab2:
 
         | Número Pergunta | Nome da Coluna | Descrição |
         | --------------- | -------------- | --------- |
-        | 14, 16, 18 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+        | 14 | tem_plano_saude | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
+        | 16 | faixa_rendimento | Número da faixa do rendimento/retirada em dinheiro |
+        | 18 | recebeu_auxilio | Auxílios emergenciais relacionados ao coronavirus |
 
         Acompanhe-nos nesta jornada enquanto mergulhamos profundamente em cada uma dessas colunas, desvendando as histórias e insights que elas têm a nos contar.
         """)
+
