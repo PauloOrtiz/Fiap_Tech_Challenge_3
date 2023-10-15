@@ -10,7 +10,7 @@ st.image(image)
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-tab1, tab2, tab3 = st.tabs(["AWS","Dicionario","Objetivos"])
+tab1, tab2, tab3 = st.tabs(["AWS","Dicionário","Objetivos"])
 
 with tab1:
         st.markdown("""
@@ -31,3 +31,49 @@ with tab1:
         - **Amazon EC2**— Amazon Elastic Compute Cloud (EC2) é uma parte central da plataforma de cloud computing da Amazon.com, Amazon Web Services (AWS). O EC2 permite que os usuários aluguem computadores virtuais nos quais rodam suas próprias aplicações. O EC2 permite a implantação de aplicações escaláveis ao prover um Web service através do qual um usuário pode iniciar uma Amazon Machine Image para criar uma máquina virtual.
         """)
         st.image(image2)
+
+with tab2:
+
+        st.markdown("""
+        ## Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
+
+        A base de dados do PNAD-COVID-19 do IBGE é vasta e rica em detalhes. Para nossa análise, focamos em colunas específicas que nos ajudariam a entender melhor o impacto e as implicações da pandemia. Vamos explorar essas colunas, organizadas por categorias.
+
+        ### Dados Padrão (Informações Pessoais)
+
+        Estas são as colunas que contêm informações básicas sobre os respondentes. Elas não são contadas como perguntas, mas são essenciais para contextualizar e segmentar as respostas.
+
+        | Nome da Coluna | Descrição |
+        | -------------- | --------- |
+        | uf | Unidade da Federação |
+        | tipo_domicilio | Situação do domicílio |
+        | sexo | Sexo |
+        | cor | Cor ou raça |
+        | escolaridade | Escolaridade |
+
+        ### Trilha dos Sintomas Clínicos
+
+        Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia.
+
+        | Número Pergunta | Nome da Coluna | Descrição |
+        | --------------- | -------------- | --------- |
+        | 1-13 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+
+        ### Trilha do Comportamento da População
+
+        Estas colunas nos dão insights sobre como a população reagiu e se comportou durante a pandemia.
+
+        | Número Pergunta | Nome da Coluna | Descrição |
+        | --------------- | -------------- | --------- |
+        | 15, 17 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+
+        ### Trilha Econômica
+
+        Estas colunas nos ajudam a entender os impactos econômicos da pandemia sobre os respondentes.
+
+        | Número Pergunta | Nome da Coluna | Descrição |
+        | --------------- | -------------- | --------- |
+        | 14, 16, 18 | [Listar os nomes das colunas aqui] | [Listar as descrições aqui] |
+
+        Acompanhe-nos nesta jornada enquanto mergulhamos profundamente em cada uma dessas colunas, desvendando as histórias e insights que elas têm a nos contar.
+        """)
