@@ -10,7 +10,7 @@ st.image(image)
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-tab1, tab2, tab3 = st.tabs(["AWS","Dicionário","Objetivos"])
+tab1, tab2, tab3 = st.tabs(["AWS","Dicionário"])
 
 with tab1:
         st.markdown("""
@@ -91,5 +91,14 @@ with tab2:
         | 18 | recebeu_auxilio | Auxílios emergenciais relacionados ao coronavirus |
 
         Acompanhe-nos nesta jornada enquanto mergulhamos profundamente em cada uma dessas colunas, desvendando as histórias e insights que elas têm a nos contar.
+        
+        ## Próximos Passos
+
+        Agora que estamos familiarizados com a estrutura do banco de dados e as perguntas cruciais que escolhemos analisar, é hora de mergulhar mais fundo. A verdadeira magia acontece quando transformamos esses dados em insights acionáveis.
+
+        Convido você a continuar esta aventura explorando a análise exploratória. Você encontrará essa seção no menu à esquerda. Juntos, vamos descobrir as histórias ocultas nos dados e, quem sabe, encontrar respostas para algumas das perguntas mais prementes desta pandemia.
+
+        **Vamos lá? A jornada apenas começou!**
+                    
         """)
 
