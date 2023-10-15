@@ -8,3 +8,8 @@ st.image(image)
 
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+tab1, tab2, tab3 = st.tabs(["AWS","Dicionario","Objetivos"])
+
+with tab1:
+        st.write("Oi")
