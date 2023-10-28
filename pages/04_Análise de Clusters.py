@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Técnica de ML", page_icon=":house:")
+st.set_page_config(page_title="Análise de Clusters", page_icon=":house:")
 
-image = Image.open("./src/img/Model.jpg")
+image = Image.open("./src/img/Cluster.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:

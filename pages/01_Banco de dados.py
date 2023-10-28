@@ -10,9 +10,13 @@ st.image(image)
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-tab1, tab2 = st.tabs(["AWS","Dicionário"])
+tab1, tab2, tab3 = st.tabs(["PNAD Covid-19","AWS","Dicionário"])
 
 with tab1:
+        pass
+
+
+with tab2:
         st.markdown("""
         # Armazenamento e Análise de Dados na AWS
 
@@ -32,7 +36,7 @@ with tab1:
         """)
         st.image(image2)
 
-with tab2:
+with tab3:
 
         st.markdown("""
         # Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
