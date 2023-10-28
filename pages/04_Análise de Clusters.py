@@ -10,19 +10,19 @@ with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.markdown("""
-    ## Análise de Agrupamento: Revelando Padrões Ocultos
+    # Análise de Agrupamento: Revelando Padrões Ocultos
 
     Imagine que você está em uma sala escura, tentando entender a disposição dos objetos nela. Você sente formas, tamanhos e texturas diferentes, mas não consegue ver o todo. Agora, imagine que uma luz suave se acende, revelando grupos de objetos semelhantes agrupados juntos. Esta é a magia da análise de agrupamento.
 
-    ### O que é Análise de Agrupamento?
+    ## O que é Análise de Agrupamento?
 
     A análise de agrupamento, ou *clustering*, é uma técnica de aprendizado de máquina não supervisionada que visa identificar e agrupar dados semelhantes com base em características específicas. Em outras palavras, ela busca padrões nos dados e agrupa pontos de dados semelhantes juntos, revelando estruturas ocultas e insights valiosos.
 
-    ### Quando Usar a Análise de Agrupamento?
+    ## Quando Usar a Análise de Agrupamento?
 
     Esta análise é particularmente útil quando não temos rótulos pré-definidos para nossos dados e queremos entender a estrutura intrínseca deles. Pode ser usada para segmentação de clientes, detecção de anomalias, organização de conteúdo e muito mais.
 
-    ### Algoritmos Principais:
+    ## Algoritmos Principais:
 
     - **K-means**: Um dos algoritmos mais populares, ele tenta encontrar 'k' centróides e atribui cada ponto de dados ao centróide mais próximo. É eficaz e eficiente para grandes conjuntos de dados, mas o número 'k' de clusters deve ser especificado antecipadamente.
 
