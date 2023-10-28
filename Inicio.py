@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Início", page_icon=":house:")
 
-image = Image.open("./src/img/inicio.jpg")
+image = Image.open("./src/img/inicio.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
