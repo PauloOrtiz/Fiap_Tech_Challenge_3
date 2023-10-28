@@ -13,22 +13,56 @@ with open("./src/css/style.css") as f:
 tab1, tab2, tab3 = st.tabs(["PNAD Covid-19","Dicionário","AWS"])
 
 with tab1:
+        
         st.markdown("""
-        # PNAD Covid: Uma Lente Sobre a Pandemia no Brasil
+        ## Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
 
-        Em tempos de incertezas e desafios, a informação é a chave para a tomada de decisões informadas. E é aqui que entra o **PNAD Covid**.
+        A base de dados do PNAD-COVID-19 do IBGE é vasta e rica em detalhes. Para nossa análise, focamos em colunas específicas que nos ajudariam a entender melhor o impacto e as implicações da pandemia. Vamos explorar essas colunas, organizadas por categorias.
 
-        ## O que é o PNAD Covid?
+        ### Dados Padrão (Informações Pessoais)
 
-        O PNAD Covid, ou Pesquisa Nacional por Amostra de Domicílios - COVID-19, é mais do que apenas uma pesquisa. É uma iniciativa do Instituto Brasileiro de Geografia e Estatística (IBGE) que busca entender os profundos efeitos da pandemia em nosso país. Através de questionários detalhados, domicílios de todo o Brasil compartilham suas experiências, desafios e realidades, fornecendo um panorama abrangente da situação atual.
+        Estas são as colunas que contêm informações básicas sobre os respondentes. Elas não são contadas como perguntas, mas são essenciais para contextualizar e segmentar as respostas.
 
-        ## Quais são os objetivos da pesquisa?
+        | Campo | Descrição |
+        | ----- | --------- |
+        | UF | Unidade da Federação |
+        | CAPITAL | Capital |
+        | RM_RIDE | Região Metropolitana e Região Administrativa Integrada de Desenvolvimento |
+        | V1012 | Semana no mês |
+        | V1013 | Mês da pesquisa |
+        | V1022 | Situação do domicílio |
+        | V1023 | Tipo de área |
+        | A002 | Idade do morador |
+        | A003 | Sexo |
+        | A004 | Cor ou raça |
+        | A005 | Escolaridade |
 
-        A missão da PNAD COVID-19 é vasta. Ela busca mensurar o impacto da pandemia no mercado de trabalho brasileiro, entender as mudanças na renda da população e, crucialmente, coletar informações sobre os sintomas referidos que poderiam estar associados à COVID-19. Além disso, a pesquisa lança luz sobre tópicos cruciais como a prevalência da testagem positiva para o vírus, a transição para o trabalho em "home office" e a influência vital do auxílio emergencial na economia doméstica.
+        ### Perguntas Clínicas e Comportamentais
 
-        ## Qual sua importância?
+        Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia, bem como seus comportamentos e atitudes.
 
-        Imagine navegar por um oceano tempestuoso sem um mapa ou bússola. Assim seria nosso enfrentamento à pandemia sem o PNAD Covid. Esta pesquisa é nossa bússola, guiando-nos através dos mares turbulentos da crise sanitária. Ela nos oferece insights valiosos sobre a realidade da população, permitindo que formuladores de políticas, profissionais de saúde e a sociedade em geral tomem decisões mais informadas e eficazes.
+        | Pergunta | Campo | Descrição |
+        | -------- | ----- | --------- |
+        | 1 | B0011 | Na semana passada teve febre? |
+        | 2 | B0012 | Na semana passada teve tosse? |
+        | 3 | B0013 | Na semana passada teve dor de garganta? |
+        | 4 | B0014 | Na semana passada teve dificuldade para respirar? |
+        | 5 | B0015 | Na semana passada teve dor de cabeça? |
+        | 6 | B0016 | Na semana passada teve dor no peito? |
+        | 7 | B0017 | Na semana passada teve náusea? |
+        | 8 | B0018 | Na semana passada teve nariz entupido ou escorrendo? |
+        | 9 | B0019 | Na semana passada teve fadiga? |
+        | 10 | B00110 | Na semana passada teve dor nos olhos? |
+        | 11 | B00111 | Na semana passada teve perda de cheiro ou sabor? |
+        | 12 | B00112 | Na semana passada teve dor muscular? |
+        | 13 | B00113 | Na semana passada teve diarreia? |
+        | 14 | B002 | Por causa disso, foi a algum estabelecimento de saúde? |
+        | 15 | B006 | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
+        | 16 | B007 | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
+        | 17 | B009B | Qual o resultado? (SWAB) |
+        | 18 | B011 | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
+        | 19 | C013 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
+        | 20 | D0051 | Auxílios emergenciais relacionados ao coronavirus |
 
         ---
 
@@ -36,77 +70,6 @@ with tab1:
         Convido você a se juntar a nós nesta jornada de descoberta. Com o PNAD Covid como nosso guia, vamos explorar os cantos e recantos da pandemia no Brasil, desvendando as histórias ocultas nos dados e buscando soluções para os desafios que enfrentamos.
 
         **Está pronto para a jornada?**
-        """)
-
-with tab2:
-
-        st.markdown("""
-        # Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
-
-        A base de dados do PNAD-COVID-19 do IBGE é vasta e rica em detalhes. Para nossa análise, focamos em colunas específicas que nos ajudariam a entender melhor o impacto e as implicações da pandemia. Vamos explorar essas colunas, organizadas por categorias.
-
-        ## Dados Padrão (Informações Pessoais)
-
-        Estas são as colunas que contêm informações básicas sobre os respondentes. Elas não são contadas como perguntas, mas são essenciais para contextualizar e segmentar as respostas.
-
-        | Nome da Coluna | Descrição |
-        | -------------- | --------- |
-        | uf | Unidade da Federação |
-        | tipo_domicilio | Situação do domicílio |
-        | sexo | Sexo |
-        | cor | Cor ou raça |
-        | escolaridade | Escolaridade |
-
-        ## Trilha dos Sintomas Clínicos
-
-        Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia.
-
-        | Número Pergunta | Nome da Coluna | Descrição |
-        | --------------- | -------------- | --------- |
-        | 1 | sintoma_febre | Na semana passada teve febre? |
-        | 2 | sintoma_tosse | Na semana passada teve tosse? |
-        | 3 | sintoma_dor_garganta | Na semana passada teve dor de garganta? |
-        | 4 | sintoma_dificuldade_respirar | Na semana passada teve dificuldade para respirar? |
-        | 5 | sintoma_dor_cabeca | Na semana passada teve dor de cabeça? |
-        | 6 | sintoma_dor_peito | Na semana passada teve dor no peito? |
-        | 7 | sintoma_nausea | Na semana passada teve náusea? |
-        | 8 | sintoma_nariz_entupido_escorrendo | Na semana passada teve nariz entupido ou escorrendo? |
-        | 9 | sintoma_fadiga | Na semana passada teve fadiga? |
-        | 10 | sintoma_perda_cheiro_sabor | Na semana passada teve perda de cheiro ou sabor? |
-        | 11 | sintoma_dor_muscular | Na semana passada teve dor muscular? |
-        | 12 | sintoma_diarreia | Na semana passada teve diarreia? |
-        | 13 | usou_respiracao_artificial | Durante a internação, foi sedado, entubado e colocado em respiração artificial com ventilador |
-
-        ## Trilha do Comportamento da População
-
-        Estas colunas nos dão insights sobre como a população reagiu e se comportou durante a pandemia.
-
-        | Número Pergunta | Nome da Coluna | Descrição |
-        | --------------- | -------------- | --------- |
-        | 15 | isolamento | Na semana passada, devido à pandemia do Coronavírus, em que medida o(a) Sr(a) restringiu o contato com as pessoas? |
-        | 17 | fez_home_office | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
-
-        ## Trilha Econômica
-
-        Estas colunas nos ajudam a entender os impactos econômicos da pandemia sobre os respondentes.
-
-        | Número Pergunta | Nome da Coluna | Descrição |
-        | --------------- | -------------- | --------- |
-        | 14 | tem_plano_saude | Tem algum plano de saúde médico, seja particular, de empresa ou de órgão público |
-        | 16 | faixa_rendimento | Número da faixa do rendimento/retirada em dinheiro |
-        | 18 | recebeu_auxilio | Auxílios emergenciais relacionados ao coronavirus |
-
-                    
-        Acompanhe-nos nesta jornada enquanto mergulhamos profundamente em cada uma dessas colunas, desvendando as histórias e insights que elas têm a nos contar.
-        
-        ### Próximos Passos
-
-        Agora que estamos familiarizados com a estrutura do banco de dados e as perguntas cruciais que escolhemos analisar, é hora de mergulhar mais fundo. A verdadeira magia acontece quando transformamos esses dados em insights acionáveis.
-
-        Convido você a continuar esta aventura explorando a análise exploratória. Você encontrará essa seção no menu à esquerda. Juntos, vamos descobrir as histórias ocultas nos dados e, quem sabe, encontrar respostas para algumas das perguntas mais prementes desta pandemia.
-
-        **Vamos lá? A jornada apenas começou!**
-                    
         """)
 
 with tab3:
