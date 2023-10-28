@@ -13,8 +13,30 @@ with open("./src/css/style.css") as f:
 tab1, tab2, tab3 = st.tabs(["PNAD Covid-19","Dicionário","AWS"])
 
 with tab1:
-        pass
+        st.markdown("""
+        # PNAD Covid: Uma Lente Sobre a Pandemia no Brasil
 
+        Em tempos de incertezas e desafios, a informação é a chave para a tomada de decisões informadas. E é aqui que entra o **PNAD Covid**.
+
+        ## O que é o PNAD Covid?
+
+        O PNAD Covid, ou Pesquisa Nacional por Amostra de Domicílios - COVID-19, é mais do que apenas uma pesquisa. É uma iniciativa do Instituto Brasileiro de Geografia e Estatística (IBGE) que busca entender os profundos efeitos da pandemia em nosso país. Através de questionários detalhados, domicílios de todo o Brasil compartilham suas experiências, desafios e realidades, fornecendo um panorama abrangente da situação atual.
+
+        ## Quais são os objetivos da pesquisa?
+
+        A missão da PNAD COVID-19 é vasta. Ela busca mensurar o impacto da pandemia no mercado de trabalho brasileiro, entender as mudanças na renda da população e, crucialmente, coletar informações sobre os sintomas referidos que poderiam estar associados à COVID-19. Além disso, a pesquisa lança luz sobre tópicos cruciais como a prevalência da testagem positiva para o vírus, a transição para o trabalho em "home office" e a influência vital do auxílio emergencial na economia doméstica.
+
+        ## Qual sua importância?
+
+        Imagine navegar por um oceano tempestuoso sem um mapa ou bússola. Assim seria nosso enfrentamento à pandemia sem o PNAD Covid. Esta pesquisa é nossa bússola, guiando-nos através dos mares turbulentos da crise sanitária. Ela nos oferece insights valiosos sobre a realidade da população, permitindo que formuladores de políticas, profissionais de saúde e a sociedade em geral tomem decisões mais informadas e eficazes.
+
+        ---
+
+        **Convite:**  
+        Convido você a se juntar a nós nesta jornada de descoberta. Com o PNAD Covid como nosso guia, vamos explorar os cantos e recantos da pandemia no Brasil, desvendando as histórias ocultas nos dados e buscando soluções para os desafios que enfrentamos.
+
+        **Está pronto para a jornada?**
+        """)
 
 with tab2:
 
