@@ -3,8 +3,8 @@ from PIL import Image
 
 st.set_page_config(page_title="Banco de dados", page_icon=":house:")
 
-image = Image.open("./src/img/Dados.jpg")
-image2 = Image.open("./src/img/AWS.png")
+image = Image.open("./src/img/Dados.png")
+image2 = Image.open("./src/img/AWS.jpg")
 st.image(image)
 
 with open("./src/css/style.css") as f:
