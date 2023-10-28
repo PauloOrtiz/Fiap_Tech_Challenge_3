@@ -11,3 +11,20 @@ with open("./src/css/style.css") as f:
 
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introdução","Análise de Correlação","Quantidade de grupos","Grupos formados", "Validação do modelo"])
+
+
+with tab1:
+        pass
+
+with tab2: 
+        pass
+
+with tab3:
+        pass
+
+with tab4:
+        pass
+
+with tab5:
+        pass
+

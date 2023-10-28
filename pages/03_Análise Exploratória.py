@@ -13,47 +13,27 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introdução","Sociodemográfico","Clí
 
 with tab1:
 
+        
         st.markdown("""
-                ## Análise Exploratória: Desvendando os Mistérios da Pandemia
+        ## Análise Exploratória: Uma Jornada pelos Impactos da Pandemia
 
-                Em um período de três meses, o mundo foi sacudido por uma onda de incertezas, medos e desafios. A COVID-19 não foi apenas uma crise de saúde, mas também uma crise social e econômica. Para prever e se preparar para futuras pandemias, precisamos entender profundamente o que aconteceu durante esse período crucial.
+        Durante três intensos meses, o mundo enfrentou mais do que uma crise de saúde. A COVID-19 revelou-se uma tempestade perfeita, afetando todos os aspectos de nossa sociedade: desde a saúde até a economia, passando pelas relações sociais e padrões de comportamento.
 
-                Nossa missão aqui é clara: **analisar o contexto social, econômico e clínico** para identificar padrões, tendências e insights. Com base nas perguntas que selecionamos na página de dados, vamos nos aprofundar em diversas análises que nos ajudarão a entender melhor o impacto da pandemia em diferentes segmentos da população.
+        Neste cenário, cada dado, cada número, conta uma história. E é nossa missão, através desta análise exploratória, dar voz a essas histórias silenciosas, mas profundamente reveladoras. Vamos nos aprofundar nas camadas da sociedade, entender os desafios enfrentados por diferentes grupos e descobrir as nuances ocultas por trás dos números brutos.
 
-                ### Análises a serem realizadas:
+        ### Nossos Temas de Exploração:
 
-                #### Sociodemográfico:
-                - % população positivada por UF
-                - % população positivada por UF analise rural/urbana
-                - % positivado por gênero
-                - Agregar todos que disseram que tiveram algum sintoma e cruzar com nível de isolamento
-                - Nível de isolamento social entre faixa etária
-                - Nível de isolamento por renda
-                - Nível de isolamento social entre quem te plano de saúde e não
-                - Internação por idade
-                - Uso de respirador por idade
-                - Auxilio emergencial por cor
-                - Home office por renda
+        #### Sociodemográfico:
+        Aqui, exploraremos como diferentes segmentos da população foram afetados. Como a pandemia influenciou diferentes faixas etárias, gêneros e grupos socioeconômicos? Quais foram os padrões de comportamento adotados e como eles se refletiram na propagação do vírus?
 
-                #### Clínico:
-                - Análise sintoma com positivados, agregar todos que responderam sim a alguma pergunta de sintoma para cruzar com positivados
-                - Cruzamento dos sintomas com internação
-                - Cruzamento dos sintomas com necessidade respirador
-                - Cruzar internação com se tem plano de saúde ou não
-                - Cruzar necessidade de respirador com tem plano de saúde ou não
+        #### Clínico:
+        A saúde é, obviamente, o epicentro desta crise. Mas quais sintomas foram mais comuns? Existem correlações entre certos sintomas e a gravidade da doença? Como o acesso a serviços de saúde influenciou os resultados para os pacientes?
 
-                #### Econômico:
-                - Plano de saúde ou não por faixa de renda
-                - Internação por faixa de renda
-                - Uso de respirador por renda
+        #### Econômico:
+        A economia foi profundamente afetada pela pandemia. Mas como exatamente? Quais grupos foram mais vulneráveis? Como os padrões de trabalho mudaram e quais foram as implicações econômicas de longo prazo?
 
-                ---
-
-                **Convite:**  
-                Convido você a se juntar a mim nesta exploração. A cada análise, revelaremos uma peça do quebra-cabeça, aproximando-nos de uma compreensão mais clara do impacto da pandemia. Juntos, vamos transformar dados brutos em conhecimento e preparar-nos melhor para o futuro.
-
-                **Vamos começar?**
-                """)
+        
+        """)
         
 with tab2:
         pass

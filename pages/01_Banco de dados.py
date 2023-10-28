@@ -90,12 +90,6 @@ with tab2:
         | 19 | C013 | Na semana passada, o(a) Sr(a) estava em trabalho remoto (home office ou teletrabalho)? |
         | 20 | D0051 | Auxílios emergenciais relacionados ao coronavirus |
 
-        ---
-
-        **Convite:**  
-        Convido você a se juntar a nós nesta jornada de descoberta. Com o PNAD Covid como nosso guia, vamos explorar os cantos e recantos da pandemia no Brasil, desvendando as histórias ocultas nos dados e buscando soluções para os desafios que enfrentamos.
-
-        **Está pronto para a jornada?**
         """)
 
 
