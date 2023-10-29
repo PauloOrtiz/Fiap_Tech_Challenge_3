@@ -5,6 +5,7 @@ st.set_page_config(page_title="Banco de dados", page_icon=":house:")
 
 image = Image.open("./src/img/Dados.png")
 image2 = Image.open("./src/img/AWS.jpg")
+image3 = Image.open("./src/img/Dash/Estrutura_DB.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
@@ -112,3 +113,12 @@ with tab3:
         - **Amazon EC2**— Amazon Elastic Compute Cloud (EC2) é uma parte central da plataforma de cloud computing da Amazon.com, Amazon Web Services (AWS). O EC2 permite que os usuários aluguem computadores virtuais nos quais rodam suas próprias aplicações. O EC2 permite a implantação de aplicações escaláveis ao prover um Web service através do qual um usuário pode iniciar uma Amazon Machine Image para criar uma máquina virtual.
         """)
         st.image(image2)
+
+        st.markdown("""
+        ## Estrutura do Banco de Dados
+
+        Agora que entendemos como os dados foram armazenados e processados, é crucial compreender a estrutura do banco de dados. A estrutura nos dá uma visão clara de como os dados estão organizados, facilitando a análise e a extração de insights valiosos.
+
+        A seguir, apresentamos um esquema visual da estrutura do banco de dados, destacando as principais tabelas, relações e campos-chave. Esta visualização nos ajudará a navegar pelos dados com eficiência e precisão.
+        """)
+        st.image(image3)
