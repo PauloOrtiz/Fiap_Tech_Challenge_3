@@ -17,6 +17,8 @@ p{
     text-indent: 40px;
 }
 .st-b3{
-    display: flow;
+    display: flow;    
+}
+button{
     border: solid black;
 }
