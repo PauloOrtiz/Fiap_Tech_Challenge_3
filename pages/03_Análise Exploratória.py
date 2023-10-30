@@ -83,46 +83,44 @@ with tab2:
 
 with tab3:
         st.markdown("""
-        ## Análise Sociodemográfica: Entendendo o Impacto da Pandemia
+        ## Análise Clínica: Sintomas da COVID-19 e Seus Impactos
 
-        A pandemia da COVID-19 afetou diferentes segmentos da população de maneiras distintas. Ao explorar os aspectos sociodemográficos, buscamos entender como diferentes grupos foram impactados e quais padrões emergem desses dados.
+        A COVID-19, uma doença causada pelo novo coronavírus, apresentou uma variedade de sintomas nos pacientes, variando de leves a graves. A compreensão desses sintomas é crucial para identificar, tratar e, em última instância, controlar a propagação do vírus.
 
-        ### 1. Análise por Gênero
+        Nesta seção, vamos mergulhar nos sintomas relatados pelos entrevistados e explorar como eles se correlacionam com os resultados dos testes e a gravidade da doença.
 
-        Observando a divisão por gênero, **46,05%** dos entrevistados eram homens, dos quais **23,61%** testaram positivo para COVID-19. Por outro lado, **53,95%** eram mulheres, e surpreendentemente, **29,2%** delas testaram positivo. Esta diferença nos faz refletir sobre os comportamentos e exposições distintas entre os gêneros.
+        ### Sintomas Mais Comuns em Pacientes Positivos
+
+        Através de uma nuvem de palavras, podemos visualizar quais sintomas foram mais frequentemente relatados por aqueles que testaram positivo para a COVID-19.
         """)
 
-        st.image(imageNvPlpositivo, caption='Distribuição por Gênero')
+        # Adicione o código para inserir a imagem da nuvem de palavras
+        st.image(imageNvPlpositivo, caption="Nuvem de palavras dos sintomas em pacientes positivos.")
 
         st.markdown("""
-        ### 2. Análise por Tipo de Domicílio
+        ### Relação entre Sintomas e Resultados de Testes
 
-        Quando analisamos o tipo de domicílio, **86,91%** dos entrevistados residem em zonas urbanas, com **24,68%** deles testando positivo. Em contraste, **13,09%** vivem em zonas rurais, e **21,95%** destes testaram positivo. Estes números nos dão uma visão sobre a disseminação do vírus em diferentes ambientes e densidades populacionais.
+        A análise a seguir apresenta uma visão clara da relação entre os sintomas relatados e os resultados dos testes. Notavelmente, a perda de olfato (anosmia) mostrou uma forte correlação com testes positivos.
         """)
 
-        st.image(imageBarraSistomas, caption='Distribuição por Tipo de Domicílio')
+        # Adicione o código para inserir a imagem do gráfico de barras
+        st.image(imageBarraSistomas, caption="Relação entre sintomas e resultados de testes.")
 
         st.markdown("""
-        ### 3. Análise por Faixa Etária
+        ### Sintomas em Pacientes Entubados
 
-        A idade é um fator crucial na análise da COVID-19. **9,33%** dos entrevistados são menores de 18 anos, com **22%** testando positivo. A maior parte, **75,18%**, tem entre 19 e 59 anos, com **25,06%** positivos. Os idosos, representando **15,49%**, tiveram uma taxa de positividade de **22,02%**. Estes números nos ajudam a entender os grupos de risco e a necessidade de cuidados especiais para certas faixas etárias.
+        A gravidade da COVID-19 em alguns pacientes levou à necessidade de entubação. A nuvem de palavras a seguir destaca os sintomas mais comuns relatados por pacientes que necessitaram de entubação.
         """)
 
-        st.image('caminho_para_imagem_idade.png', caption='Distribuição por Faixa Etária')
-
-        st.markdown("""
-        ### 4. Análise de Plano de Saúde e Internações
-
-        A disponibilidade de um plano de saúde pode influenciar o acesso ao tratamento. **28,24%** dos entrevistados possuem plano de saúde, e **12,5%** destes foram entubados. Em contraste, **71,76%** não possuem plano, e **22,95%** destes foram entubados. A maior taxa de entubação entre os que não têm plano pode refletir desafios no acesso a tratamentos precoces ou a cuidados de saúde de qualidade.
-        """)
-
-        st.image(imageNVPlentubado, caption='Distribuição por Plano de Saúde')
+        # Adicione o código para inserir a segunda imagem da nuvem de palavras
+        st.image(imageNVPlentubado, caption="Nuvem de palavras dos sintomas em pacientes entubados.")
 
         st.markdown("""
         ## Conclusão
 
-        A análise sociodemográfica revelou padrões e tendências cruciais sobre o impacto da COVID-19 em diferentes segmentos da população. Estes insights são fundamentais para direcionar esforços, recursos e campanhas de conscientização. A pandemia nos mostrou a importância de entender as nuances da nossa sociedade, e com essas informações, estamos mais preparados para enfrentar desafios futuros e proteger os mais vulneráveis.
+        A análise clínica nos oferece insights valiosos sobre a natureza da COVID-19 e seus efeitos nos pacientes. A identificação precoce de sintomas, especialmente aqueles fortemente correlacionados com testes positivos, é crucial para o tratamento oportuno e a prevenção da propagação. A necessidade de entubação em alguns pacientes reforça a gravidade potencial da doença e a importância de medidas preventivas e de controle. À medida que continuamos a enfrentar desafios relacionados à COVID-19, esses insights são fundamentais para informar estratégias de saúde pública e práticas clínicas.
         """)
+
 
 with tab4:
 
