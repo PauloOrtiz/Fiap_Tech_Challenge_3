@@ -4,7 +4,7 @@ from PIL import Image
 st.set_page_config(page_title="K-means", page_icon=":house:")
 
 image = Image.open("./src/img/Model.jpg")
-imageCorrelacao = Image.open("./src/img/Dash/Kmeans/Correlacao_PNAD.png")
+imageCorrelacao = Image.open("./src/img/Kmeans/Correlacao_PNAD.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
@@ -53,7 +53,7 @@ with tab2:
         Observando o gráfico de correlação, notamos algumas relações interessantes. A contagem de sintomas apresenta uma forte relação com a ida a um estabelecimento de saúde. Isso sugere que, quanto mais sintomas um indivíduo apresenta, maior é a probabilidade de ele buscar atendimento médico. Além disso, há uma forte correlação entre os sintomas, indicando que os pacientes que apresentaram sintomas geralmente tiveram mais de um sintoma simultaneamente.
         """)
 
-        #st.image(imageCorrelacao, caption="Gráfico de Correlação dos Sintomas e Atendimento Médico.")
+        st.image(imageCorrelacao, caption="Gráfico de Correlação dos Sintomas e Atendimento Médico.")
 
         st.markdown("""
         ### Conclusão
