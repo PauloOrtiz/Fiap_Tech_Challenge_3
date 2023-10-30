@@ -50,8 +50,8 @@ with tab2:
 
         Estas são as colunas que contêm informações básicas sobre os respondentes. Elas não são contadas como perguntas, mas são essenciais para contextualizar e segmentar as respostas.
 
-        | Campo | Descrição |
-        | ----- | --------- |
+        | Código | Descrição |
+        | ------ | --------- |
         | UF | Unidade da Federação |
         | CAPITAL | Capital |
         | RM_RIDE | Região Metropolitana e Região Administrativa Integrada de Desenvolvimento |
@@ -68,8 +68,8 @@ with tab2:
 
         Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia, bem como seus comportamentos e atitudes.
 
-        | Pergunta | Campo | Descrição |
-        | -------- | ----- | --------- |
+        | Pergunta | Código | Descrição |
+        | -------- | ------ | --------- |
         | 1 | B0011 | Na semana passada teve febre? |
         | 2 | B0012 | Na semana passada teve tosse? |
         | 3 | B0013 | Na semana passada teve dor de garganta? |
