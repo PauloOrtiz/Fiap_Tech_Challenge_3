@@ -12,6 +12,9 @@ imageNvPlpositivo = Image.open("./src/img/Dash/Clinico/Tab_sintomas_maior_incide
 imageNVPlentubado = Image.open("./src/img/Dash/Clinico/Tab_sintomas_internação.png")
 imageBarraSistomas = Image.open("./src/img/Dash/Clinico/quant_positivo_negativo_por_sintoma.png")
 imagePizzaModalidade = Image.open("./src/img/Dash/Economico/Plano_Modalidade.png")
+imageRepre01 = Image.open("./src/img/Dash/Perfil geral/Repre_01.png")
+imageRepre02 = Image.open("./src/img/Dash/Perfil geral/Repre_02.png")
+imageRepre03 = Image.open("./src/img/Dash/Perfil geral/Repre_03.png")
 
 
 st.image(image)
@@ -46,7 +49,32 @@ with tab1:
         
         """)
 with tab2:
-        pass
+        st.markdown("""
+    ## Análise do Perfil Geral dos Pesquisados
+
+    Antes de nos aprofundarmos em detalhes específicos, é fundamental entender o panorama geral. Analisar o perfil geral dos pesquisados nos permite estabelecer uma base sólida para interpretações futuras e garantir que nossas conclusões sejam contextualizadas corretamente. Esta análise nos dá uma visão clara da representatividade de diferentes grupos dentro da nossa amostra e nos ajuda a identificar tendências e padrões iniciais.
+
+    ### Visão Geral dos Pesquisados
+
+    - **Primeira Imagem**: Esta imagem nos dá uma visão clara da proporção de pessoas que realizaram algum tipo de teste em relação ao total de entrevistados. É um indicador inicial da conscientização e acessibilidade aos testes.
+    
+    - **Segunda Imagem**: Aqui, focamos naqueles que, após serem testados, receberam um resultado positivo para COVID-19. Esta imagem nos ajuda a entender a prevalência da doença dentro da nossa amostra.
+    
+    - **Terceira Imagem**: Esta imagem é crucial, pois destaca a proporção de indivíduos que, após testar positivo para COVID-19 e apresentar sintomas, necessitaram de internação. Isso nos dá uma ideia da gravidade dos casos dentro da nossa amostra.
+
+        """)
+
+        # Adicione o código para inserir as imagens após a análise descritiva
+        st.image(imageRepre01, caption="Representatividade dos que realizaram testes.")
+        st.image(imageRepre02, caption="Representatividade dos que testaram positivo para COVID-19.")
+        st.image(imageRepre03, caption="Representatividade dos que necessitaram de internação após testar positivo.")
+
+        st.markdown("""
+        ## Conclusão
+
+        Através desta análise inicial, conseguimos obter uma visão abrangente do perfil dos pesquisados. Estes insights iniciais são fundamentais e servirão como base para as análises mais detalhadas que se seguirão. A capacidade de identificar a prevalência de testes, infecções e internações nos permite traçar estratégias mais eficazes e direcionar recursos de maneira mais informada. À medida que avançamos, esses dados iniciais nos guiarão em nossa jornada para entender melhor os efeitos e impactos da COVID-19 em diferentes segmentos da população.
+
+        """)
         
 with tab3:
         
