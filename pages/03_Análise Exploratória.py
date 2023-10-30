@@ -83,7 +83,7 @@ with tab2:
 
 with tab3:
         st.markdown("""
-        ## Análise Clínica: Sintomas da COVID-19 e Seus Impactos
+        # Análise Clínica: Sintomas da COVID-19 e Seus Impactos
 
         A COVID-19, uma doença causada pelo novo coronavírus, apresentou uma variedade de sintomas nos pacientes, variando de leves a graves. A compreensão desses sintomas é crucial para identificar, tratar e, em última instância, controlar a propagação do vírus.
 
@@ -98,7 +98,7 @@ with tab3:
         st.image(imageNvPlpositivo, caption="Nuvem de palavras dos sintomas em pacientes positivos.")
 
         st.markdown("""
-        ### Relação entre Sintomas e Resultados de Testes
+        ## Relação entre Sintomas e Resultados de Testes
 
         A análise a seguir apresenta uma visão clara da relação entre os sintomas relatados e os resultados dos testes. Notavelmente, a perda de olfato (anosmia) mostrou uma forte correlação com testes positivos.
         """)
@@ -107,7 +107,7 @@ with tab3:
         st.image(imageBarraSistomas, caption="Relação entre sintomas e resultados de testes.")
 
         st.markdown("""
-        ### Sintomas em Pacientes Entubados
+        ## Sintomas em Pacientes Entubados
 
         A gravidade da COVID-19 em alguns pacientes levou à necessidade de entubação. A nuvem de palavras a seguir destaca os sintomas mais comuns relatados por pacientes que necessitaram de entubação.
         """)
@@ -116,7 +116,7 @@ with tab3:
         st.image(imageNVPlentubado, caption="Nuvem de palavras dos sintomas em pacientes entubados.")
 
         st.markdown("""
-        ## Conclusão
+        ### Conclusão
 
         A análise clínica nos oferece insights valiosos sobre a natureza da COVID-19 e seus efeitos nos pacientes. A identificação precoce de sintomas, especialmente aqueles fortemente correlacionados com testes positivos, é crucial para o tratamento oportuno e a prevenção da propagação. A necessidade de entubação em alguns pacientes reforça a gravidade potencial da doença e a importância de medidas preventivas e de controle. À medida que continuamos a enfrentar desafios relacionados à COVID-19, esses insights são fundamentais para informar estratégias de saúde pública e práticas clínicas.
         """)
