@@ -11,6 +11,7 @@ imagePlano = Image.open("./src/img/Dash/Sociodemografica/plano.png")
 imageNvPlpositivo = Image.open("./src/img/Dash/Clinico/Tab_sintomas_maior_incidecia_para_caso_positivados.png")
 imageNVPlentubado = Image.open("./src/img/Dash/Clinico/Tab_sintomas_internação.png")
 imageBarraSistomas = Image.open("./src/img/Dash/Clinico/quant_positivo_negativo_por_sintoma.png")
+imagePizzaModalidade = Image.open("./src/img/Dash/Economico/Plano_Modalidade.png")
 
 
 st.image(image)
@@ -143,4 +144,20 @@ with tab5:
         """)
 
         st.image(imagePlano, caption='Distribuição por Plano de Saúde')
+
+
+        st.markdown("""
+        ## Análise Econômica: Plano de Saúde e Home Office
+
+        A pandemia da COVID-19 trouxe à tona diversas desigualdades socioeconômicas. Uma delas é a relação entre a posse de um plano de saúde e a capacidade de trabalhar remotamente. O trabalho remoto, ou home office, tornou-se uma prática comum durante a pandemia, permitindo que muitos continuassem suas atividades profissionais enquanto se protegiam do vírus. No entanto, nem todos tiveram essa oportunidade.
+
+        ### Plano de Saúde e Home Office: Uma Relação Reveladora
+
+        Nossa análise indica uma correlação notável entre a posse de um plano de saúde e a prática de home office. **89,9%** das pessoas com plano de saúde tiveram a oportunidade de trabalhar remotamente. Em contraste, apenas **49,4%** daqueles sem plano de saúde puderam fazer o mesmo. 
+
+        Isso sugere que aqueles sem plano de saúde, um indicador de menor poder econômico, enfrentaram um risco duplo: a falta de proteção de saúde adequada e a necessidade de se expor mais frequentemente ao vírus ao se deslocar para o trabalho.
+
+        """)
+
+        st.image(imagePlano, caption='Modalidade de trabalho vs Plano de Saúde')
 
