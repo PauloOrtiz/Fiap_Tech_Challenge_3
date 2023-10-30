@@ -6,6 +6,7 @@ st.set_page_config(page_title="Análise Exploratória", page_icon=":house:")
 image = Image.open("./src/img/Exploratoria.png")
 imageSexo = Image.open("./src/img/Dash/Sociodemografica/Sexo.png")
 imageIdade = Image.open("./src/img/Dash/Sociodemografica/idade.png")
+imageIdadeEntubados = Image.open("./src/img/Dash/Sociodemografica/idade_entubados.png")
 imageDomicilio = Image.open("./src/img/Dash/Sociodemografica/Domicílio.png")
 imagePlano = Image.open("./src/img/Dash/Sociodemografica/plano.png")
 imageNvPlpositivo = Image.open("./src/img/Dash/Clinico/Tab_sintomas_maior_incidecia_para_caso_positivados.png")
@@ -105,6 +106,7 @@ with tab3:
         """)
 
         st.image(imageIdade, caption='Distribuição por Faixa Etária')
+        st.image(imageIdadeEntubados, caption='Distribuição por Faixa Etária sobre a entubação')
 
         st.markdown("""
         ### Conclusão
