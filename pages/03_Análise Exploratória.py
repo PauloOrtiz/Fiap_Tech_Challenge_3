@@ -8,6 +8,7 @@ imageSexo = Image.open("./src/img/Dash/Sociodemografica/Sexo.png")
 imageIdade = Image.open("./src/img/Dash/Sociodemografica/idade.png")
 imageIdadeEntubados = Image.open("./src/img/Dash/Sociodemografica/idade_entubados.png")
 imageDomicilio = Image.open("./src/img/Dash/Sociodemografica/Domicílio.png")
+imageMapa = Image.open("./src/img/Dash/Sociodemografica/mapa.png")
 imagePlano = Image.open("./src/img/Dash/Sociodemografica/plano.png")
 imageNvPlpositivo = Image.open("./src/img/Dash/Clinico/Tab_sintomas_maior_incidecia_para_caso_positivados.png")
 imageNVPlentubado = Image.open("./src/img/Dash/Clinico/Tab_sintomas_internação.png")
@@ -107,6 +108,22 @@ with tab3:
 
         st.image(imageIdade, caption='Distribuição por Faixa Etária')
         st.image(imageIdadeEntubados, caption='Distribuição por Faixa Etária sobre a entubação')
+
+        st.markdown("""
+        ## 4. Incidência de Casos Positivos por Estado
+
+        A distribuição geográfica da COVID-19 no Brasil é um aspecto crucial para entender a propagação do vírus e planejar estratégias de intervenção. Ao analisar a incidência de casos positivos por estado, podemos identificar áreas de maior risco e direcionar recursos e medidas preventivas de forma mais eficaz.
+
+        No mapa abaixo, observamos a proporção da população que realizou testes e o percentual de positivados por estado. Algumas regiões apresentam uma incidência significativamente mais alta do que outras. Destacam-se:
+
+        - **Amapá**: Com uma incidência de 44% de casos positivos.
+        - **Acre**: Onde 40% dos testados foram diagnosticados como positivos.
+        - **Tocantins**: Com uma incidência de 35% de positivados.
+
+        Essas regiões, com incidência mais elevada, requerem atenção especial e podem necessitar de medidas mais rigorosas para controlar a propagação do vírus.
+        """)
+               
+        st.image(imageMapa, caption="Mapa de Incidência de Casos Positivos por Estado.")
 
         st.markdown("""
         ### Conclusão
