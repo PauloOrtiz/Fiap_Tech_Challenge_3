@@ -50,11 +50,11 @@ with tab1:
         """)
 with tab2:
         st.markdown("""
-    ## Análise do Perfil Geral dos Pesquisados
+    # Análise do Perfil Geral dos Pesquisados
 
     Antes de nos aprofundarmos em detalhes específicos, é fundamental entender o panorama geral. Analisar o perfil geral dos pesquisados nos permite estabelecer uma base sólida para interpretações futuras e garantir que nossas conclusões sejam contextualizadas corretamente. Esta análise nos dá uma visão clara da representatividade de diferentes grupos dentro da nossa amostra e nos ajuda a identificar tendências e padrões iniciais.
 
-    ### Visão Geral dos Pesquisados
+    ## Visão Geral dos Pesquisados
 
     - **Primeira Imagem**: Esta imagem nos dá uma visão clara da proporção de pessoas que realizaram algum tipo de teste em relação ao total de entrevistados. É um indicador inicial da conscientização e acessibilidade aos testes.
     
@@ -70,7 +70,7 @@ with tab2:
         st.image(imageRepre03, caption="Representatividade dos que necessitaram de internação após testar positivo.")
 
         st.markdown("""
-        ## Conclusão
+        ### Conclusão
 
         Através desta análise inicial, conseguimos obter uma visão abrangente do perfil dos pesquisados. Estes insights iniciais são fundamentais e servirão como base para as análises mais detalhadas que se seguirão. A capacidade de identificar a prevalência de testes, infecções e internações nos permite traçar estratégias mais eficazes e direcionar recursos de maneira mais informada. À medida que avançamos, esses dados iniciais nos guiarão em nossa jornada para entender melhor os efeitos e impactos da COVID-19 em diferentes segmentos da população.
 
