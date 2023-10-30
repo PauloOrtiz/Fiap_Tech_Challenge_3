@@ -85,6 +85,16 @@ with tab3:
 with tab4:
 
         st.markdown("""
+        ## Análise Econômica: O Impacto da COVID-19 no Bolso dos Brasileiros
+
+        A pandemia da COVID-19 não afetou apenas a saúde global, mas também teve repercussões significativas na economia. Muitos perderam empregos, enfrentaram cortes salariais e viram suas economias desaparecerem. No entanto, a realidade econômica de cada indivíduo é única e influenciada por diversos fatores.
+
+        Nesta seção, exploraremos o aspecto econômico dos entrevistados, buscando entender como a pandemia afetou diferentes segmentos da população em termos financeiros. Vamos analisar a relação entre a posse de um plano de saúde e a capacidade de acesso a tratamentos, bem como outros indicadores econômicos que podem lançar luz sobre as desigualdades e desafios enfrentados durante este período turbulento.
+
+        A economia e a saúde estão intrinsecamente ligadas, e entender essa relação é crucial para formular políticas e estratégias eficazes para o futuro.
+        """)
+        
+        st.markdown("""
         ## 1. Análise de Plano de Saúde e Internações
 
         A disponibilidade de um plano de saúde pode influenciar o acesso ao tratamento. **28,24%** dos entrevistados possuem plano de saúde, e **12,5%** destes foram entubados. Em contraste, **71,76%** não possuem plano, e **22,95%** destes foram entubados. A maior taxa de entubação entre os que não têm plano pode refletir desafios no acesso a tratamentos precoces ou a cuidados de saúde de qualidade.
