@@ -74,14 +74,6 @@ with tab2:
         st.image(imageIdade, caption='Distribuição por Faixa Etária')
 
         st.markdown("""
-        ## 4. Análise de Plano de Saúde e Internações
-
-        A disponibilidade de um plano de saúde pode influenciar o acesso ao tratamento. **28,24%** dos entrevistados possuem plano de saúde, e **12,5%** destes foram entubados. Em contraste, **71,76%** não possuem plano, e **22,95%** destes foram entubados. A maior taxa de entubação entre os que não têm plano pode refletir desafios no acesso a tratamentos precoces ou a cuidados de saúde de qualidade.
-        """)
-
-        st.image(imagePlano, caption='Distribuição por Plano de Saúde')
-
-        st.markdown("""
         ### Conclusão
 
         A análise sociodemográfica revelou padrões e tendências cruciais sobre o impacto da COVID-19 em diferentes segmentos da população. Estes insights são fundamentais para direcionar esforços, recursos e campanhas de conscientização. A pandemia nos mostrou a importância de entender as nuances da nossa sociedade, e com essas informações, estamos mais preparados para enfrentar desafios futuros e proteger os mais vulneráveis.
@@ -91,7 +83,14 @@ with tab3:
         pass
 
 with tab4:
-        pass
+
+        st.markdown("""
+        ## 1. Análise de Plano de Saúde e Internações
+
+        A disponibilidade de um plano de saúde pode influenciar o acesso ao tratamento. **28,24%** dos entrevistados possuem plano de saúde, e **12,5%** destes foram entubados. Em contraste, **71,76%** não possuem plano, e **22,95%** destes foram entubados. A maior taxa de entubação entre os que não têm plano pode refletir desafios no acesso a tratamentos precoces ou a cuidados de saúde de qualidade.
+        """)
+
+        st.image(imagePlano, caption='Distribuição por Plano de Saúde')
 
 with tab5:
         pass
