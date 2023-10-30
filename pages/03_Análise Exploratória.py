@@ -159,5 +159,5 @@ with tab5:
 
         """)
 
-        st.image(imagePlano, caption='Modalidade de trabalho vs Plano de Saúde')
+        st.image(imagePizzaModalidade, caption='Modalidade de trabalho vs Plano de Saúde')
 
