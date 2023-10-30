@@ -85,7 +85,7 @@ with tab3:
 with tab4:
 
         st.markdown("""
-        ## Análise Econômica: O Impacto da COVID-19 no Bolso dos Brasileiros
+        # Análise Econômica: O Impacto da COVID-19 no Bolso dos Brasileiros
 
         A pandemia da COVID-19 não afetou apenas a saúde global, mas também teve repercussões significativas na economia. Muitos perderam empregos, enfrentaram cortes salariais e viram suas economias desaparecerem. No entanto, a realidade econômica de cada indivíduo é única e influenciada por diversos fatores.
 
