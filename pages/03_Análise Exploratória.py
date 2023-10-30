@@ -19,7 +19,7 @@ st.image(image)
 with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introdução","Sociodemográfico","Clínico","Econômico", "Perfil geral da população"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introdução","Perfil geral da população","Sociodemográfico","Clínico","Econômico"])
 
 with tab1:
 
@@ -44,8 +44,10 @@ with tab1:
 
         
         """)
-        
 with tab2:
+        pass
+        
+with tab3:
         
         st.markdown("""
         # Análise Sociodemográfica: Entendendo o Impacto da Pandemia
@@ -81,7 +83,7 @@ with tab2:
         A análise sociodemográfica revelou padrões e tendências cruciais sobre o impacto da COVID-19 em diferentes segmentos da população. Estes insights são fundamentais para direcionar esforços, recursos e campanhas de conscientização. A pandemia nos mostrou a importância de entender as nuances da nossa sociedade, e com essas informações, estamos mais preparados para enfrentar desafios futuros e proteger os mais vulneráveis.
         """)
 
-with tab3:
+with tab4:
         st.markdown("""
         # Análise Clínica: Sintomas da COVID-19 e Seus Impactos
 
@@ -122,7 +124,7 @@ with tab3:
         """)
 
 
-with tab4:
+with tab5:
 
         st.markdown("""
         # Análise Econômica: O Impacto da COVID-19 no Bolso dos Brasileiros
@@ -142,5 +144,3 @@ with tab4:
 
         st.image(imagePlano, caption='Distribuição por Plano de Saúde')
 
-with tab5:
-        pass
