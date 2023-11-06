@@ -37,5 +37,5 @@ st.markdown("""
     **Convite:**  
     Com a análise de agrupamento como nossa bússola, vamos desvendar os padrões ocultos nos dados, descobrindo histórias e insights que aguardam para serem revelados.
 
-    **Está pronto para iluminar a sala escura dos seus dados?**
+    **Está pronto para ver a sala escura dos dados iluminada?**
 """)
