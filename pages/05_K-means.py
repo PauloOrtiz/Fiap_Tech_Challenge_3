@@ -124,5 +124,25 @@ with tab5:
         st.image(imageInternacaoGrupo, caption="Gráfico dos internações por grupo.")
 
 with tab6:
-        pass
-
+        
+        st.markdown("""
+        
+        # Métrica de Validação Silhouette Score
+        
+        O Silhouette Score é uma métrica de avaliação de clusterização utilizada para determinar a qualidade da separação de dados em clusters. Ele fornece uma medida de quão bem os objetos em um cluster estão agrupados em relação a objetos de outros clusters. Em outras palavras, o Silhouette Score avalia a coesão intra-cluster e a separação inter-cluster.
+        
+        O Silhouette Score varia de -1 a +1, com valores mais altos indicando uma clusterização melhor. Um valor próximo de +1 indica que os objetos dentro do cluster estão bem agrupados e separados de outros clusters, enquanto um valor próximo de **-1** sugere que a clusterização está inadequada, e os objetos podem estar melhor em clusters diferentes. 
+        Um valor próximo de 0 indica que a sobreposição entre clusters pode estar ocorrendo.
+        
+        A métrica Silhouette Score resultante da modelagem K-Means dos nossos dados foi de **0,3380**, relativamente alta e indica que a clusterização dos dados é boa. Geralmente, valores do Silhouette Score no intervalo de **0,25 a 0,5** são considerados bons, pois sugerem que os objetos dentro dos clusters estão bem agrupados e que há uma separação adequada entre os clusters.        
+        
+        ## Outras métricas de amparo 
+        
+        Podem ser utilizadas ainda outras métricas de validação para a análise de agrupamento, como Calinski-Harabasz Score e Davies-Bouldin Score. 
+        
+        Calinski-Harabasz Score: Esta métrica avalia a separação entre os clusters e a compactação dos pontos de dados dentro dos clusters. 
+        Quanto maior o valor, melhor a qualidade do agrupamento, indicando clusters bem definidos e compactos. O Calinski-Harabasz Score para nosso modelo foi de **4224,57**, o que simboliza um agrupamento de alta qualidade, com pontos de dados bem agrupados e clusters bem definidos.
+        
+        Davies-Bouldin Score: Esta métrica mede a dissimilaridade média entre cada cluster e seu cluster mais semelhante. Um valor mais baixo indica uma melhor separação entre os clusters e, portanto, um agrupamento de maior qualidade. Nosso agrupamento dos dados apresentou Davies-Bouldin Score igual a 1,25, indicando que a dissimilaridade entre os clusters é relativamente pequena em comparação com a dissimilaridade dentro dos clusters.
+                    
+        """)
