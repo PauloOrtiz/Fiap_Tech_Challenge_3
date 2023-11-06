@@ -72,7 +72,6 @@ with tab3:
         # A Maldição da Dimensionalidade dos dados
         
         À medida que a dimensionalidade dos dados aumenta, a densidade dos pontos de dados no espaço diminui, o que pode tornar os agrupamentos menos distintos e mais sensíveis a outliers. 
-        
         Isso é conhecido como o "efeito da maldição da dimensionalidade" e pode afetar negativamente o desempenho do K-means.
         
         Com a finalidade de otimizar o modelo de agrupamento com os dados já conhecidos e solucionar o problema da maldição da dimensionalidade dos dados, selecionamos 7 variáveis para identificação dos pacientes com maior chance de serem internados, sendo elas: 
