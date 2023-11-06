@@ -11,7 +11,7 @@ with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["Introdução","Análise de Correlação","Quantidade de grupos","Grupos formados", "Validação do modelo"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Introdução","Análise de Correlação","Componentes Principais","Quantidade de grupos","Grupos formados", "Validação do modelo"])
 
 
 with tab1:
@@ -63,11 +63,27 @@ with tab2:
         """)
 
 with tab3:
-        pass
+        st.markdown("""
+        # Título: A Maldição da Dimensionalidade dos dados
+        
+        À medida que a dimensionalidade dos dados aumenta, a densidade dos pontos de dados no espaço diminui, o que pode tornar os agrupamentos menos distintos e mais sensíveis a outliers. Isso é conhecido como o "efeito da maldição da dimensionalidade" e pode afetar negativamente o desempenho do K-means.
+        Com a finalidade de otimizar o modelo de agrupamento com os dados já conhecidos e solucionar o problema da maldição da dimensionalidade dos dados, selecionamos 7 variáveis para identificação dos pacientes com maior chance de serem internados, sendo elas: 
+        internou: se o paciente foi internado/entubado ou não;
+        tem_plano_saude: se o paciente possui plano de saúde ou não, pois através da análise exploratória identificamos que pacientes que não possuem plano de sáude são mais fragilizados, principalmente devido à exposição ao virus;
+        qtd_sintomas: se o paciente apresenta 0 sintomas, de 1 a 2 sintomas ou mais de 3 sintomas, para provarmos a ideia de que pacientes com maior número de sintomas possuem mais chances de internação;
+        fx_idade: faixa etária dos pacientes, sendo "0" menor de 12 anos (infantil), "1" de 12 a 17 anos (adolescentes), "2" de 18 a 30 anos (jovens), "3" de 30 a 59 anos (adultos) e "4" maior de 60 anos (idosos). Assim poderemos ver alguma relação da faixa etária em relação aos grupos formados pelo algoritmo.
+        - **sintomas_graves**: pacientes que possuem os sintomas identificados como "graves" na análise exploratória: dificuldade para respirar, fadiga e dor no peito;
+        - **sintomas_medios**: tosse, febre, dor muscular, dor de garganta e dor de cabeça;
+        - **sintomas_leves**: outros sintomas.
+        
+        """)
 
 with tab4:
         pass
 
 with tab5:
+        pass
+
+with tab6:
         pass
 
