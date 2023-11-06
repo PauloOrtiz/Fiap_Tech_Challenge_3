@@ -42,7 +42,7 @@ with tab1:
 with tab2:
         
         st.markdown("""
-        ## Dicionário de Dados: Navegando pelas Colunas do PNAD-COVID-19
+        ## Perguntas de Dados: Navegando pelas Colunas do PNAD-COVID-19
 
         A base de dados do PNAD-COVID-19 do IBGE é vasta e rica em detalhes. Para nossa análise, focamos em colunas específicas que nos ajudariam a entender melhor o impacto e as implicações da pandemia. Vamos explorar essas colunas, organizadas por categorias.
 
@@ -64,7 +64,7 @@ with tab2:
         | A004 | Cor ou raça |
         | A005 | Escolaridade |
 
-        ### Perguntas Clínicas e Comportamentais
+        ### Perguntas Clínicas, Comportamentais e Econômicas
 
         Estas colunas nos ajudam a entender os sintomas clínicos apresentados pelos respondentes durante a pandemia, bem como seus comportamentos e atitudes.
 
