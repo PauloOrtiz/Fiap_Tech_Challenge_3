@@ -143,6 +143,6 @@ with tab6:
         Calinski-Harabasz Score: Esta métrica avalia a separação entre os clusters e a compactação dos pontos de dados dentro dos clusters. 
         Quanto maior o valor, melhor a qualidade do agrupamento, indicando clusters bem definidos e compactos. O Calinski-Harabasz Score para nosso modelo foi de **4224,57**, o que simboliza um agrupamento de alta qualidade, com pontos de dados bem agrupados e clusters bem definidos.
         
-        Davies-Bouldin Score: Esta métrica mede a dissimilaridade média entre cada cluster e seu cluster mais semelhante. Um valor mais baixo indica uma melhor separação entre os clusters e, portanto, um agrupamento de maior qualidade. Nosso agrupamento dos dados apresentou Davies-Bouldin Score igual a 1,25, indicando que a dissimilaridade entre os clusters é relativamente pequena em comparação com a dissimilaridade dentro dos clusters.
+        Davies-Bouldin Score: Esta métrica mede a dissimilaridade média entre cada cluster e seu cluster mais semelhante. Um valor mais baixo indica uma melhor separação entre os clusters e, portanto, um agrupamento de maior qualidade. Nosso agrupamento dos dados apresentou **Davies-Bouldin Score igual a 1,25**, indicando que a dissimilaridade entre os clusters é relativamente pequena em comparação com a dissimilaridade dentro dos clusters.
                     
         """)
