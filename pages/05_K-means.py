@@ -101,7 +101,7 @@ with tab4:
         st.image(imageEscolha, caption="Gráfico para escolha de agrupamento.")
         
         st.markdown("""
-        Como podemos observar, o número de grupos a serem formados pelo K-means são 3 grupos.
+        Como podemos observar, o número de grupos a serem formados pelo K-means são **3 grupos**.
         
         ## Explorando insights profundos com o K-Means
 
