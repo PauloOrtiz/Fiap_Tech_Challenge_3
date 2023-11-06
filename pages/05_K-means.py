@@ -64,11 +64,12 @@ with tab2:
 
 with tab3:
         st.markdown("""
-        # Título: A Maldição da Dimensionalidade dos dados
+        # A Maldição da Dimensionalidade dos dados
         
         À medida que a dimensionalidade dos dados aumenta, a densidade dos pontos de dados no espaço diminui, o que pode tornar os agrupamentos menos distintos e mais sensíveis a outliers. 
         
         Isso é conhecido como o "efeito da maldição da dimensionalidade" e pode afetar negativamente o desempenho do K-means.
+        
         Com a finalidade de otimizar o modelo de agrupamento com os dados já conhecidos e solucionar o problema da maldição da dimensionalidade dos dados, selecionamos 7 variáveis para identificação dos pacientes com maior chance de serem internados, sendo elas: 
         
         - **internou**: se o paciente foi internado/entubado ou não;
@@ -78,6 +79,12 @@ with tab3:
         - **sintomas_graves**: pacientes que possuem os sintomas identificados como "graves" na análise exploratória: dificuldade para respirar, fadiga e dor no peito;
         - **sintomas_medios**: tosse, febre, dor muscular, dor de garganta e dor de cabeça;
         - **sintomas_leves**: outros sintomas.
+        
+        ## Análise de Componentes Principais
+        
+        Além da seleção das principais variáveis para o modelo, a Análise de Componentes Principais (PCA) se apresenta como outra solução para a maldição citada, reduzindo a dimensionalidade dos dados A PCA é uma técnica estatística comumente empregada como um passo prévio à aplicação de algoritmos de análise de agrupamento, como o K-Means, pois torna os dados complexos mais gerenciáveis e ajuda a melhorar o desempenho do modelo.
+        
+        Foram escolhidas 5 componentes principais para representar o conjunto de dados que continham as 7 variáveis mencionadas anteriormente. As componentes explicaram 86,9% da variabilidade dos dados originais.
         
         """)
 
