@@ -7,6 +7,9 @@ image = Image.open("./src/img/Model.jpg")
 imageCorrelacao = Image.open("./src/img/Kmeans/Correlacao_PNAD.png")
 imageEscolha = Image.open("./src/img/Kmeans/Escolha_numero_grupos_K-means.png")
 imageGrupo = Image.open("./src/img/Kmeans/Agrupamento_K-means.png")
+imageInternacaoIdade =Image.open("./src/img/Kmeans/Internacoes_e_faixa_etaria_por_grupo.png")
+imageInternacaoGrave =Image.open("./src/img/Kmeans/Internacoes_e_sintomas_graves_por_grupo.png")
+imageInternacaoGrupo =Image.open("./src/img/Kmeans/Internacoes_por_grupo.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
@@ -115,7 +118,10 @@ with tab5:
         # Visualizando os grupos formados
                     
         """)
-        st.image(imageGrupo, caption="Gráfico para escolha de agrupamento.")
+        st.image(imageGrupo, caption="Gráfico dos grupo formados.")
+        st.image(imageInternacaoIdade, caption="Gráfico de internações por Idade de cada grupo.")
+        st.image(imageInternacaoGrave, caption="Gráfico dos internações por Sitomas grave de cada grupo.")
+        st.image(imageInternacaoGrupo, caption="Gráfico dos internações por grupo.")
 
 with tab6:
         pass
