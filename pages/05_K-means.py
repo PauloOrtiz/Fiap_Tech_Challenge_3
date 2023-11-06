@@ -98,7 +98,7 @@ with tab4:
         O nome "cotovelo" se deve à forma do gráfico, que se assemelha a um cotovelo dobrado. Para o nosso conjunto de dados, o gráfico se apresentou como se segue abaixo:
         
         """)
-        st.image(imageCorrelacao, caption="Gráfico para escolha de agrupamento.")
+        st.image(imageEscolha, caption="Gráfico para escolha de agrupamento.")
         
         st.markdown("""
         Como podemos observar, o número de grupos a serem formados pelo K-means são 3 grupos.
