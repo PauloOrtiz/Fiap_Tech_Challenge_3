@@ -5,6 +5,7 @@ st.set_page_config(page_title="K-means", page_icon=":house:")
 
 image = Image.open("./src/img/Model.jpg")
 imageCorrelacao = Image.open("./src/img/Kmeans/Correlacao_PNAD.png")
+imageEscolha = Image.open("./src/img/Kmeans/Escolha_numero_grupos_K-means.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
@@ -89,7 +90,24 @@ with tab3:
         """)
 
 with tab4:
-        pass
+        st.markdown("""
+        # Elbow Plot            
+
+        O gráfico Elbow, também conhecido como método do cotovelo, é uma ferramenta utilizada na análise de agrupamento (clustering) de dados. Ele ajuda a determinar o número ideal de clusters em um conjunto de dados quando se utiliza algoritmos de agrupamento, como o K-Means. 
+        
+        O nome "cotovelo" se deve à forma do gráfico, que se assemelha a um cotovelo dobrado. Para o nosso conjunto de dados, o gráfico se apresentou como se segue abaixo:
+        
+        """)
+        st.image(imageCorrelacao, caption="Gráfico para escolha de agrupamento.")
+        
+        st.markdown("""
+        Como podemos observar, o número de grupos a serem formados pelo K-means são 3 grupos.
+        
+        ## Explorando insights profundos com o K-Means
+
+        Agora que identificamos o número ideal de clusters, é hora de aplicar o algoritmo K-Means e revelar os padrões ocultos em nossos dados.
+        
+        """)
 
 with tab5:
         pass
