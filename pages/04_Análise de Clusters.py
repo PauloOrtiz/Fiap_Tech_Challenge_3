@@ -22,11 +22,17 @@ st.markdown("""
 
     Esta análise é particularmente útil quando não temos rótulos pré-definidos para nossos dados e queremos entender a estrutura intrínseca deles. Pode ser usada para segmentação de clientes, detecção de anomalias, organização de conteúdo e muito mais.
 
-    ## Algoritmos Principais:
+    ## Algoritmos Comumente utilizados:
 
     - **K-means**: Um dos algoritmos mais populares, ele tenta encontrar 'k' centróides e atribui cada ponto de dados ao centróide mais próximo. É eficaz e eficiente para grandes conjuntos de dados, mas o número 'k' de clusters deve ser especificado antecipadamente.
 
     - **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**: Este algoritmo agrupa pontos que estão próximos em termos de densidade e pode identificar clusters de forma e tamanho variáveis. Uma grande vantagem é que ele pode identificar pontos de ruído no conjunto de dados.
+    
+     - **Hierarchical Clustering**: Este algoritmo agrupa pontos de dados em uma hierarquia de clusters, começando com clusters individuais e combinando-os em clusters maiores. Ele pode ser usado para identificar clusters de diferentes tamanhos e formas.
+
+    - **Gaussian Mixture Model (GMM)**: Este algoritmo assume que os pontos de dados são gerados a partir de uma mistura de distribuições gaussianas e tenta encontrar as distribuições subjacentes. É útil para identificar clusters com diferentes formas e tamanhos.
+
+    - **Agglomerative Clustering**: Este algoritmo começa com cada ponto de dados como seu próprio cluster e, em seguida, combina os clusters mais próximos até que todos os pontos de dados estejam em um único cluster. Ele pode ser usado para identificar clusters de diferentes tamanhos e formas.
 
     **Convite:**  
     Com a análise de agrupamento como nossa bússola, vamos desvendar os padrões ocultos nos dados, descobrindo histórias e insights que aguardam para serem revelados.
