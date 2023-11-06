@@ -6,6 +6,7 @@ st.set_page_config(page_title="K-means", page_icon=":house:")
 image = Image.open("./src/img/Model.jpg")
 imageCorrelacao = Image.open("./src/img/Kmeans/Correlacao_PNAD.png")
 imageEscolha = Image.open("./src/img/Kmeans/Escolha_numero_grupos_K-means.png")
+imageGrupo = Image.open("./src/img/Kmeans/Agrupamento_K-means.png")
 st.image(image)
 
 with open("./src/css/style.css") as f:
@@ -110,7 +111,11 @@ with tab4:
         """)
 
 with tab5:
-        pass
+        st.markdown("""
+        # Visualizando os grupos formados
+                    
+        """)
+        st.image(imageGrupo, caption="Gráfico para escolha de agrupamento.")
 
 with tab6:
         pass
