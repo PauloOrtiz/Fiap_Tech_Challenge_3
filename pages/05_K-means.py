@@ -37,7 +37,7 @@ with tab1:
 
         ## Por que K-means neste projeto?
 
-        Em nossa missão de entender a pandemia, queremos segmentar a população de pacientes em grupos distintos. O K-means nos permite identificar similaridades entre os pacientes, agrupando-os de forma que cada grupo revele padrões e tendências específicas. Assim, podemos obter insights mais profundos sobre diferentes segmentos da população e adaptar estratégias de intervenção de acordo.
+       Em nossa missão de entender a pandemia, queremos segmentar a população de pacientes em grupos distintos. O K-means nos permite identificar similaridades entre os pacientes, agrupando-os de forma que cada grupo revele padrões e tendências específicas. Assim, podemos obter insights mais profundos sobre diferentes segmentos da população e adaptar estratégias de intervenção de acordo, respondendo a pergunta principal: dentre as pessoas que buscaram atendimento em alguma unidade hospitalar, como podemos identificar pacientes com maior chance de internação?
         
         """)
 
