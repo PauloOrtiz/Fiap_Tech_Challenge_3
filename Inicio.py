@@ -27,7 +27,7 @@ Nossa expedição pelos dados nos levará por três trilhas principais:
 
 1. **Trilha dos Sintomas Clínicos:** Aqui, exploraremos os sinais que a COVID-19 deixou em nosso corpo. Quais sintomas foram mais comuns? Existiram padrões ou anomalias que podemos identificar?
   
-2. **Trilha do Comportamento da População:** Nesta trilha, entenderemos como nós, como sociedade, reagimos. Quais foram nossos medos, nossas ações e nossas esperanças durante os meses mais críticos da pandemia?
+2. **Trilha do Perfil da População:** Nesta trilha, exploraremos perguntas essenciais para compreender o perfil da população afetada pelo Covid-19. Quais foram as características demográficas, os fatores de risco e o perfil das pessoas que passaram pela doença? Vamos analisar em profundidade o perfil da população afetada para obter insights valiosos sobre as diversas dimensões do impacto do vírus em nossa sociedade.
   
 3. **Trilha Econômica:** A pandemia abalou as estruturas econômicas. Mas como? E quem foi mais afetado? Vamos desvendar os impactos econômicos que reverberaram por toda a sociedade.
 
