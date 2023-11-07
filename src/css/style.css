@@ -24,6 +24,6 @@ p{
     color: #CD8D00;
 }
 
-button#tabs-bui22-tab-1{
-    width: 70px;
+.tabs-bui5-tab-1 {
+    width: 70px; /* Define a largura do botão */
 }
