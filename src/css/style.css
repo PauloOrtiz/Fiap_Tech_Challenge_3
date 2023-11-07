@@ -24,6 +24,7 @@ p{
     color: #CD8D00;
 }
 
-.tabs-bui5-tab-1 {
-    width: 70px; /* Define a largura do botão */
+.tabs-bui5-tab-1 div p {
+    width: 70px;
 }
+
