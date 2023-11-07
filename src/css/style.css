@@ -18,8 +18,11 @@ p{
 }
 .st-b3{
     display: inline;    
-    width: 40px;
+    
 }
 .st-c6{
     color: #CD8D00;
+}
+button{
+    width: 40px;
 }
