@@ -16,7 +16,7 @@ with open("./src/css/style.css") as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Introdução","Análise de Correlação","Componentes Principais","Quantidade de grupos","Grupos formados", "Validação do modelo"])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Introdução","Correlação","Componentes Principais","Qtd de grupos","Grupos formados", "Validação"])
 
 
 with tab1:
