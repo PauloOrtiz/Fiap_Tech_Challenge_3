@@ -131,7 +131,7 @@ with tab5:
         ## Gráfico de distribuição de Quantidade de sintomas por grupo:
         Analisamos como estavam distribuidos a quantidade de sintomas nos casos de internação por grupo, e verificamos que praticamente 100% dos casos de internação do Grupos 2 tem 3 ou mais sintomas, conforme gráfico abaixo:
         """)
-        st.image(imageInternacaoGrave, caption="Gráfico dos internações por quantidades de Sitomas de cada grupo.")
+        st.image(imageInternacaoSintomas, caption="Gráfico dos internações por quantidades de Sitomas de cada grupo.")
         st.markdown("""
         ## Gráfico de distribuição de idade por grupo:
         Analisamos as internações por faixa de idade em cada grupo, e verificamos que os grupos 1 e 2 possuem alto representatividade de Idosos (>60 anos)  e adultos e fase ativa (31 - 60 anos)
