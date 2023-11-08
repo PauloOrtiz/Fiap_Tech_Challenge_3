@@ -115,14 +115,34 @@ with tab4:
 
 with tab5:
         st.markdown("""
-        # Visualizando os grupos formados
-                    
+        # Analizando os grupos formados
+
+        De acordo com o gráfico de dispersão que contém as duas primeiras componentes principais, pode-se afirmar que o algoritmo K-Means conseguiu identificar 3 grupos de maneira satisfatória, uma vez que os dados estão bem distribuídos em relação aos grupos e aos centróides, que se encontram de forma geral na posição central de cada grupo, ou onde há a presença de maior densidade dos dados.
+        Há uma pequena sobreposição de alguns dos dados dos grupos de cor cinza e azul. Esse fato pode ser explicado pelas limitações do K-means, em virtude, por exemplo, das variáveis em sua essência serem categóricas e o algoritmo sensível a escala das variáveis. O K-means utiliza distâncias euclidianas para medir a dissimilaridade entre pontos de dados. Isso pode ser inadequado para variáveis categóricas, pois as distâncias euclidianas podem não refletir adequadamente a similaridade entre categorias em alguns casos.
+        Vale salientar também que a interpretação gráfica dos resultados dos clusters formados pelo K-means neste caso não é direta/prática como aplicado à variáveis numéricas.             
         """)
         st.image(imageGrupo, caption="Gráfico dos grupo formados.")
-        st.image(imageInternacaoIdade, caption="Gráfico de internações por Idade de cada grupo.")
-        st.image(imageInternacaoGrave, caption="Gráfico dos internações por Sitomas grave de cada grupo.")
-        st.image(imageInternacaoGrave, caption="Gráfico dos internações por quantidades de Sitomas de cada grupo.")
+        st.markdown("""
+        ## Grafico de internações por grupos
+        Após execução do modelo do kmeans sobre os dados da pesquisa dos individuos que procuraram alguma estabelecimento de saúde, fomos capazes de indentificar três perfils de individuos com diferentes probabilidades de internação/entubação , sendo capaz de dar maior luz de priorização de atendimento aqueles que possuem maior probabilidade de internação (grupo3), conforme analise abaixo: 
+        """)
         st.image(imageInternacaoGrupo, caption="Gráfico dos internações por grupo.")
+        st.markdown("""
+        ## Gráfico de distribuição de Quantidade de sintomas por grupo:
+        Analisamos como estavam distribuidos a quantidade de sintomas nos casos de internação por grupo, e verificamos que praticamente 100% dos casos de internação do Grupos 2 tem 3 ou mais sintomas, conforme gráfico abaixo:
+        """)
+        st.image(imageInternacaoGrave, caption="Gráfico dos internações por quantidades de Sitomas de cada grupo.")
+        st.markdown("""
+        ## Gráfico de distribuição de idade por grupo:
+        Analisamos as internações por faixa de idade em cada grupo, e verificamos que os grupos 1 e 2 possuem alto representatividade de Idosos (>60 anos)  e adultos e fase ativa (31 - 60 anos)
+        """)
+        st.image(imageInternacaoIdade, caption="Gráfico de internações por Idade de cada grupo.")
+        st.markdown("""
+        ## Gráfico de distribuição de sintomas Graves por grupos:
+        Analisamos a distribuição de sintomas graves (Falta de ar, fadiga e dor no peito) entre os grupos e notamos que o grupo 2, cerca de 96% dos pacientes internados apresentavam tais sintomas.
+        """)
+        st.image(imageInternacaoGrave, caption="Gráfico dos internações por Sitomas grave de cada grupo.")
+        
 
 with tab6:
         
