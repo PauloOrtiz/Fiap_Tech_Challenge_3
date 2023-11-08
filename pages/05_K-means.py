@@ -143,7 +143,7 @@ with tab5:
         ## Gráfico de distribuição de sintomas Graves por grupos:
         Analisamos a distribuição de sintomas graves (Falta de ar, fadiga e dor no peito) entre os grupos e notamos que o grupo 2, cerca de 96% dos pacientes internados apresentavam tais sintomas.
         """)
-        st.image(imageInternacaoGrave, caption="Gráfico dos internações por Sitomas grave de cada grupo.")
+        st.image(imageInternacaoGrave, caption="Gráfico das internações por Sintomas grave de cada grupo.")
         
 
 with tab6:
