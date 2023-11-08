@@ -115,7 +115,7 @@ with tab4:
 
 with tab5:
         st.markdown("""
-        # Analizando os grupos formados
+        # Analisando os grupos formados
 
         De acordo com o gráfico de dispersão que contém as duas primeiras componentes principais, pode-se afirmar que o algoritmo K-Means conseguiu identificar 3 grupos de maneira satisfatória, uma vez que os dados estão bem distribuídos em relação aos grupos e aos centróides, que se encontram de forma geral na posição central de cada grupo, ou onde há a presença de maior densidade dos dados.
         
@@ -125,7 +125,7 @@ with tab5:
         """)
         st.image(imageGrupo, caption="Gráfico dos grupos formados.")
         st.markdown("""
-        ## Gráfico de internações por grupos
+        ## Grá  fico de internações por grupos
         Após execução do modelo do kmeans sobre os dados da pesquisa dos individuos que procuraram alguma estabelecimento de saúde, fomos capazes de indentificar três perfils de individuos com diferentes probabilidades de internação/entubação , sendo capaz de dar maior luz de priorização de atendimento aqueles que possuem maior probabilidade de internação (grupo3), conforme analise abaixo: 
         """)
         st.image(imageInternacaoGrupo, caption="Gráfico dos internações por grupo.")
