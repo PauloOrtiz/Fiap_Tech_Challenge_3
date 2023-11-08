@@ -123,7 +123,7 @@ with tab5:
         
         Vale salientar também que a interpretação gráfica dos resultados dos clusters formados pelo K-means neste caso não é direta/prática como aplicado à variáveis numéricas.             
         """)
-        st.image(imageGrupo, caption="Gráfico dos grupo formados.")
+        st.image(imageGrupo, caption="Gráfico dos grupos formados.")
         st.markdown("""
         ## Grafico de internações por grupos
         Após execução do modelo do kmeans sobre os dados da pesquisa dos individuos que procuraram alguma estabelecimento de saúde, fomos capazes de indentificar três perfils de individuos com diferentes probabilidades de internação/entubação , sendo capaz de dar maior luz de priorização de atendimento aqueles que possuem maior probabilidade de internação (grupo3), conforme analise abaixo: 
@@ -133,7 +133,7 @@ with tab5:
         ## Gráfico de distribuição de Quantidade de sintomas por grupo:
         Analisamos como estavam distribuidos a quantidade de sintomas nos casos de internação por grupo, e verificamos que praticamente 100% dos casos de internação do Grupos 2 tem 3 ou mais sintomas, conforme gráfico abaixo:
         """)
-        st.image(imageInternacaoSintomas, caption="Gráfico dos internações por quantidades de Sitomas de cada grupo.")
+        st.image(imageInternacaoSintomas, caption="Gráfico das internações por quantidades de Sintomas de cada grupo.")
         st.markdown("""
         ## Gráfico de distribuição de idade por grupo:
         Analisamos as internações por faixa de idade em cada grupo, e verificamos que os grupos 1 e 2 possuem alto representatividade de Idosos (>60 anos)  e adultos e fase ativa (31 - 60 anos)
