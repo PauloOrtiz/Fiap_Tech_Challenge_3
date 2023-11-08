@@ -118,7 +118,9 @@ with tab5:
         # Analizando os grupos formados
 
         De acordo com o gráfico de dispersão que contém as duas primeiras componentes principais, pode-se afirmar que o algoritmo K-Means conseguiu identificar 3 grupos de maneira satisfatória, uma vez que os dados estão bem distribuídos em relação aos grupos e aos centróides, que se encontram de forma geral na posição central de cada grupo, ou onde há a presença de maior densidade dos dados.
+        
         Há uma pequena sobreposição de alguns dos dados dos grupos de cor cinza e azul. Esse fato pode ser explicado pelas limitações do K-means, em virtude, por exemplo, das variáveis em sua essência serem categóricas e o algoritmo sensível a escala das variáveis. O K-means utiliza distâncias euclidianas para medir a dissimilaridade entre pontos de dados. Isso pode ser inadequado para variáveis categóricas, pois as distâncias euclidianas podem não refletir adequadamente a similaridade entre categorias em alguns casos.
+        
         Vale salientar também que a interpretação gráfica dos resultados dos clusters formados pelo K-means neste caso não é direta/prática como aplicado à variáveis numéricas.             
         """)
         st.image(imageGrupo, caption="Gráfico dos grupo formados.")
