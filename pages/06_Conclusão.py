@@ -25,7 +25,13 @@ st.markdown("""
 
     ## Resultados:
 
-    *Aqui, incluiremos os resultados específicos e insights obtidos a partir das análises.*
+    Em resumo, a análise abrangente da PNAD 2020 revelou insights valiosos sobre o impacto da COVID-19 no Brasil. Identificamos padrões distintos em gênero, localização geográfica e faixa etária, fornecendo uma base sólida para a formulação de estratégias de intervenção mais direcionadas.
+
+A aplicação de algoritmos como o K-Means trouxe uma compreensão mais refinada, destacando grupos com diferentes probabilidades de internação.Revelou nuances cruciais sobre o impacto da COVID-19, destacando grupos distintos através do K-Means. Estes grupos, identificados com diferentes probabilidades de internação, oferecem insights valiosos para a priorização de recursos e estratégias.  Ao focarmos nesses grupos específicos, estamos melhor posicionados para desenvolver políticas mais direcionadas e eficazes, principalmente para ações nos grupos de maior riscos como idosos e adultos ativos, pessoas com mais de três sintomas, e que apresentam sintomas respiratorios que classificamos como graves.
+
+Olhando para o futuro, esses resultados sugerem a necessidade contínua de abordagens interdisciplinares e adaptações metodológicas. A implementação de políticas públicas mais eficazes e equitativas requer uma compreensão mais profunda das nuances da disseminação do vírus.
+
+Em meio aos desafios, a riqueza de dados da PNAD 2020 abre portas para investigações mais aprofundadas e aprimoramento das estratégias existentes. Ao avançarmos, a combinação de tecnologia, análise de dados e colaboração interdisciplinar certamente impulsionará nossa capacidade de enfrentar futuras crises de saúde com resiliência e eficácia.
 
     **Convite:**  
     A pandemia nos ensinou a importância da preparação e da adaptabilidade. Com os insights que agora possuímos, estamos melhor equipados para enfrentar desafios futuros. Convido você a continuar trabalhando conosco, usando o conhecimento adquirido para criar um futuro mais seguro e saudável para todos.
