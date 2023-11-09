@@ -32,7 +32,7 @@ st.markdown("""
 
     1. **Preparação de Recursos**: Identificado o grupo 2, conforme citado acima, como o mais requisitante de atendimento hospitalar e vulnerável à internação, o hospital deve garantir que os recursos médicos estejam prontamente disponíveis para eles, como materiais adequados e pessoal capacitado; 
     2. **Campanhas de Conscientização**: Direcionar campanhas educativas para maior adesão às medidas preventivas de contaminação do vírus, principalmente à população economicamente ativa;
-    3. **Parcerias com Planos de Saúde**: Estabelecer parcerias estratégicas com provedores de planos de saúde para garantir tratamento oportuno, já que pela amostra da população de infectados internados, apenas 28,24% possuí este benefício;
+    3. **Parcerias com Planos de Saúde**: Estabelecer parcerias estratégicas com provedores de planos de saúde para garantir tratamento oportuno, já que pela amostra da população de infectados internados, apenas 28,24% possuíam este benefício;
     4. **Monitoramento Contínuo**: Utilizar dados em tempo real para monitorar o comportamento dos pacientes em relação à evolução da doença e adaptar estratégias conforme necessário.
             
     ### **Convite:**  
