@@ -16,7 +16,7 @@ st.markdown("""
 
     
    
-    ## Conclusão: Lições Aprendidas e o Caminho a Seguir:
+    ## Lições Aprendidas e o Caminho a Seguir:
 
     Em resumo, a análise abrangente da PNAD 2020 revelou insights valiosos sobre o impacto da COVID-19 no Brasil. Identificamos padrões distintos em gênero, localização geográfica, sintomas clínicos e faixa etária, fornecendo uma base sólida para a formulação de estratégias de intervenção mais direcionadas.
 
