@@ -51,7 +51,10 @@ st.markdown("""
         **Dados para Analise - PNAD-COVID**. Disponível em: https://covid19.ibge.gov.br/pnad-covid/. Acesso em: 10 de Setembro de 2023.
             
         **Documentação do scikit-learn**. Disponível em: https://scikit-learn.org/stable/index.html. Acesso: 1 de novembro de 2023.
-         
+        
+        **Clustering — Conceitos básicos, principais algoritmos e aplicações**. Disponível em: https://medium.com/turing-talks/clustering-conceitos-básicos-principais-algoritmos-e-aplicação-ace572a062a9. Acesso em: 23 de setembro de 2023.
+        
+        **Análises com algoritmos de Clustering**. Disponível em: https://medium.com/@isnardgurgel/análises-com-algoritmos-de-clustering-40d52f36f67c. Acesso em: 27 de setembro de 2023.
             
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
