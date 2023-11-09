@@ -125,8 +125,8 @@ with tab5:
         """)
         st.image(imageGrupo, caption="Gráfico dos grupos formados.")
         st.markdown("""
-        ## Grá  fico de internações por grupos
-        Após execução do modelo do kmeans sobre os dados da pesquisa dos individuos que procuraram alguma estabelecimento de saúde, fomos capazes de indentificar três perfils de individuos com diferentes probabilidades de internação/entubação , sendo capaz de dar maior luz de priorização de atendimento aqueles que possuem maior probabilidade de internação (grupo3), conforme analise abaixo: 
+        ## Gráfico de internações por grupos
+        Após execução do modelo do kmeans sobre os dados da pesquisa dos individuos que procuraram alguma estabelecimento de saúde, fomos capazes de indentificar três perfis de individuos com diferentes probabilidades de internação/entubação , sendo capaz de dar maior luz de priorização de atendimento aqueles que possuem maior probabilidade de internação (grupo3), conforme analise abaixo: 
         """)
         st.image(imageInternacaoGrupo, caption="Gráfico dos internações por grupo.")
         st.markdown("""
