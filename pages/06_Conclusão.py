@@ -14,14 +14,7 @@ st.markdown("""
 
     Após nossa jornada profunda pelos mares de dados, emergimos com uma compreensão clara do perfil da população e dos grupos distintos que a compõem. Cada grupo, com suas características únicas, nos contou uma história, revelando nuances sobre como a pandemia afetou diferentes segmentos da sociedade.
 
-    ## Ações Recomendadas:
-
-    Com base em nosso entendimento, aqui estão algumas ações que o hospital pode considerar caso enfrentemos um novo surto da doença:
-
-    1. **Preparação de Recursos**: Identificar os grupos mais vulneráveis e garantir que os recursos médicos estejam prontamente disponíveis para eles.
-    2. **Campanhas de Conscientização**: Direcionar campanhas educativas para grupos que mostraram menor adesão às medidas preventivas.
-    3. **Parcerias com Planos de Saúde**: Estabelecer parcerias estratégicas com provedores de planos de saúde para garantir tratamento oportuno.
-    4. **Monitoramento Contínuo**: Utilizar dados em tempo real para monitorar a situação e adaptar estratégias conforme necessário.
+    
 
     ## Resultados:
 
@@ -33,6 +26,16 @@ st.markdown("""
 
     Em meio aos desafios, a riqueza de dados da PNAD 2020 abre portas para investigações mais aprofundadas e aprimoramento das estratégias existentes. Ao avançarmos, a combinação de tecnologia, análise de dados e colaboração interdisciplinar certamente impulsionará nossa capacidade de enfrentar futuras crises de saúde com resiliência e eficácia.
 
+            
+    ## Ações Recomendadas:
+
+    Com base em nosso entendimento, aqui estão algumas ações que o hospital pode considerar caso enfrentemos um novo surto da doença:
+
+    1. **Preparação de Recursos**: Identificar os grupos mais vulneráveis e garantir que os recursos médicos estejam prontamente disponíveis para eles.
+    2. **Campanhas de Conscientização**: Direcionar campanhas educativas para grupos que mostraram menor adesão às medidas preventivas.
+    3. **Parcerias com Planos de Saúde**: Estabelecer parcerias estratégicas com provedores de planos de saúde para garantir tratamento oportuno.
+    4. **Monitoramento Contínuo**: Utilizar dados em tempo real para monitorar a situação e adaptar estratégias conforme necessário.
+            
     ### **Convite:**  
     A pandemia nos ensinou a importância da preparação e da adaptabilidade. Com os insights que agora possuímos, estamos melhor equipados para enfrentar desafios futuros. Convido você a continuar trabalhando conosco, usando o conhecimento adquirido para criar um futuro mais seguro e saudável para todos.
 
