@@ -33,7 +33,7 @@ st.markdown("""
 
     Em meio aos desafios, a riqueza de dados da PNAD 2020 abre portas para investigações mais aprofundadas e aprimoramento das estratégias existentes. Ao avançarmos, a combinação de tecnologia, análise de dados e colaboração interdisciplinar certamente impulsionará nossa capacidade de enfrentar futuras crises de saúde com resiliência e eficácia.
 
-    **Convite:**  
+    ### **Convite:**  
     A pandemia nos ensinou a importância da preparação e da adaptabilidade. Com os insights que agora possuímos, estamos melhor equipados para enfrentar desafios futuros. Convido você a continuar trabalhando conosco, usando o conhecimento adquirido para criar um futuro mais seguro e saudável para todos.
 
     **Obrigado por nos acompanhar nesta jornada. Juntos, podemos fazer a diferença.**
