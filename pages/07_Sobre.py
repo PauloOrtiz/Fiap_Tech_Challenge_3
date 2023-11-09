@@ -50,5 +50,8 @@ st.markdown("""
         
         **Dados para Analise - PNAD-COVID**. Disponível em: https://covid19.ibge.gov.br/pnad-covid/. Acesso em: 10 de Setembro de 2023.
             
+        **Documentação do scikit-learn**. Disponível em: https://scikit-learn.org/stable/index.html. Acesso: 1 de novembro de 2023.
+         
+            
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
