@@ -42,5 +42,13 @@ st.markdown("""
                 
         **DAITYARL, Shaumik . Cluster Analysis in Python**. DataCamp, 2023. Disponível em: https://app.datacamp.com/learn/courses/cluster-analysis-in-python. Acesso em: 23 de outubro de 2023.
 
+        **Documentação do Streamlit**. Disponível em: https://docs.streamlit.io/. Acesso em: 12 de Outubro de 2023. 
+        
+        **Documentação do Apache Spark**. Disponível em: https://spark.apache.org/documentation.html. Acesso em: 01 de Outubro de 2023.
+        
+        **Imagem de capa das paginas gerados via IA Dalle-3**. Disponível em: https://www.bing.com/images/create/?ref=hn. Acesso em: 20 de outubro de 2023. 
+        
+        
+            
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
