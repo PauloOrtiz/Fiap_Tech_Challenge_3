@@ -48,7 +48,7 @@ st.markdown("""
         
         **Imagem de capa das paginas gerados via IA Dalle-3**. Disponível em: https://www.bing.com/images/create/?ref=hn. Acesso em: 20 de outubro de 2023. 
         
-        
+        **Dados para Analise - PNAD-COVID**. Disponível em: https://covid19.ibge.gov.br/pnad-covid/. Acesso em: 10 de Setembro de 2023.
             
         Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
         """, unsafe_allow_html=True)
