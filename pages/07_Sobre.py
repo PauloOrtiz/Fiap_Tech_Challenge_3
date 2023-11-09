@@ -38,7 +38,7 @@ st.markdown("""
         
     ## Referências 📚
 
-    Em desenvolvimento
+    **Guangyang Li. Documentação do pywaffle**. Disponível em: https://pywaffle.readthedocs.io/en/latest/index.html. Acesso em: 12 de Outubro de 2023.
 
         
     Gostaríamos de expressar nossa gratidão a todas estas fontes por disponibilizar esses dados publicamente.
